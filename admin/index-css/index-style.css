@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom right, #1c053a, #dd092a);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background: #fff;
+  width: 900px;
+  min-height: 400px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+
+
+}
+
+.form,
+.image{
+  width: 50%;
+}
+
+.image{
+background-image: url("./form-images/form-image.jpg");
+background-size:cover;
+background-position: center;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 21, 26, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.overlay h3{
+  color:white;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.overlay h2{
+  color:white;
+  letter-spacing: 1px;
+  font-size: 36px;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.overlay p{
+  color:white;
+  font-size: 13px;
+  font-weight: bold;
+   opacity: 0.6;
+}
+
+
+.form{
+  padding: 60px 25px; 
+  display: flex;
+  flex-direction: column;
+}
+.form h3{
+  font-size: 28px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 30px;
+}
+.form h3::after{
+  content: '';
+  width:30px;
+  height:3px;
+  background: #dd092a;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  border-radius: 5px;
+}
+
+.fa{
+  color: #dd092a;
+  position: absolute;
+  top:10px;
+  font-size: 18px;
+}
+
+.input-field{
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+.input-field input{
+  display: block; 
+  width: 100%;
+  padding: 10px 30px;
+  outline: none;
+  border:none;
+  border-bottom: 2px solid rgb(182, 180, 180);
+  font-size: 15px;
+}
+
+.form>a{
+  color:#dd092a;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 35px
+}
+
+button{
+  height: 45px;
+  background:#dd092a;
+  border:none;
+  color:white;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button+p{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+button+p a{
+  text-decoration: none;
+  color:#dd092a;
+  font-weight: 500;
+}
+
+
+.home-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.home-button a{
+  text-decoration: none;
+  color:#dd092a;
+  font-weight: 500;
+  text-align: center;
+}
+
+.home-button a:hover{
+  color:rgba(40, 21, 65);
+}
+
+button:hover {
+        opacity: 0.7;
+    }
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+#cancelbtn {
+    width: 25%;
+    margin: 10px 5px;
+    background-color:tomato;
+}
+
+.forgot-pass{
+    text-decoration: none;
+    color: grey;
+}
+
+.forgot-pass:hover{
+    color:black;
+}
