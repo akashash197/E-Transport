@@ -8,7 +8,7 @@ This repository utilizes a wide range of technologies including HTML, CSS, JavaS
 * Contact page for direct communication with the website owner.
 * Admin panel for managing and updating the website content.
 
-##Technologies Used
+## Technologies Used
 The project incorporates the following technologies:
 
 * HTML: Used for creating the structure and layout of the web pages.
@@ -20,7 +20,7 @@ The project incorporates the following technologies:
 * MySQL: Used as the database management system for storing and retrieving data.
 * XAMPP: Used as the local web server solution for hosting the website.
 
-##Installation
+## Installation
 To run the E-Transport website project locally, follow these steps:
 
 * Install XAMPP on your computer.
@@ -29,7 +29,7 @@ To run the E-Transport website project locally, follow these steps:
 * Start the Apache and MySQL services in XAMPP control panel.
 * Open a web browser and navigate to http://localhost/E-Transport (replace E-Transport with the actual project folder name if necessary).
 
-###Usage
+## Usage
 Once the project is up and running, you can perform the following actions:
 
 * Browse the website to explore the listing of transport businesses.
@@ -37,13 +37,13 @@ Once the project is up and running, you can perform the following actions:
 * Utilize the contact page to directly communicate with the website owner.
 * Access the admin panel to manage and update website content.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or improvements for the E-Transport website project, please feel free to open an issue or submit a pull request.
 
-##Contact
+## Contact
 If you have any questions or need further assistance, please contact the project owner:
 
-###Email: abharti197@gmail.com
+### Email: abharti197@gmail.com
 
 Thank you for using E-Transport! We hope you find it helpful and convenient for your transport service needs.
 
